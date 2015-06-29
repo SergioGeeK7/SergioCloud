@@ -1,0 +1,150 @@
+#selectable{
+    width: 100%;
+    height: 700px;
+
+}
+.contenedorfile{
+
+    width: 80px;
+    height: 50px;
+    padding: 5px;
+    margin:  10px;
+    border-radius: 5px;
+    float: left;
+}
+.contenedoricono{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+  
+}
+.contenedorlabel{
+    font-size: 14px;
+    text-align: center;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+iframe{
+    display: none;
+}
+.ui-selecting {
+    background: #ccc;
+}
+.ui-selected {
+    background:rgba(0,0,0,0.2);
+}
+
+.ui-selectable-helper {
+    position: absolute;
+    z-index: 100;
+    border: 1px dotted black;
+}
+
+.file_js{
+    background: url(../img/js.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_rar,.file_zip{
+    background: url(../img/rar.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_doc{
+    background: url(../img/doc.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_exe{
+    background: url(../img/exe.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_png{
+    background: url(../img/png.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_jpg,.file_jepg{
+    background: url(../img/jpg.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_ppt,.file_pptx{
+    background: url(../img/ppt.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_jar{
+    background: url(../img/jar.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_java{
+    background: url(../img/java.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_psd{
+    background: url(../img/psd.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_pdf{
+    background: url(../img/pdf.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_html{
+    background: url(../img/html.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_css{
+    background: url(../img/css.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_xls{
+    background: url(../img/xls.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_xml{
+    background: url(../img/xml.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_php{
+    background: url(../img/php.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+.file_txt{
+    background: url(../img/txt.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_{
+    background: url(../img/folder.png); /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+button.ui-button-icon-only{
+    width: 1.7em;
+}
+button.ui-button-icons-only{
+    width: 2.9em;
+}
+button.ui-button-icon-only,button.ui-button-icons-only{
+    height: 25px;
+}
+
+.ui-menu { position: absolute; width: 146px; font-size: 12px; }
+
+input{
+    width: 200px;
+    height: 18px;
+    border-radius: 5px;
+    box-shadow:0px 0px 5px 0px rgba(0, 0, 7, 0.3);
+}
+#toolbar{
+    padding: 2px;
+    height: 30px;
+    background:rgba(0, 0, 0,0.1);
+    border-radius: 5px;
+}
+body{
+    margin: 0px;
+    padding: 5px;
+}
+
+
+.ui-widget-content .ui-icon{
+    background-image: url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/images/ui-icons_888888_256x240.png);   
+}

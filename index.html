@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sergio Cloud</title>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css" /> 
+        <link rel="stylesheet" href="css/css.css"/>
+    </head>
+    <body>
+       
+        <div id="toolbar">
+            <button value="home">Home</button> 
+            <button value="back">Back</button>
+            <button value="forward">Forward</button>
+            <button value="previusly">Previously</button>
+            <button value="upload">Upload</button>
+            <button value="download">Download</button>
+            <button value="arrange">Arrange</button>
+            <button value="about">About SergioCloud</button>
+            <input type="text">
+
+            <ul id="menulist">
+                <li id="date"><a href="#">Date Modified</a></li>
+                <li id="size"><a href="#">Size</a></li>
+                <li id="type"><a href="#">Type</a></li>
+            </ul>
+
+            <ul id="contextmenu">
+                <li id="download"><a href="#"><span class="ui-icon ui-icon-circle-arrow-s"></span>Download</a></li>
+                <li id="getinfo"><a href="#" ><span class="ui-icon ui-icon-info"></span>Get info</a></li>
+                <li id="about"><a href="#" ><span class="ui-icon ui-icon-help"></span>About sergioCloud</a></li>
+            </ul>
+        </div>
+
+        <div id="selectable">
+            <!--
+              <div class="contenedorfile" draggable="true">
+
+                  <div class="contenedoricono">
+                      <div class="icono" ></div>
+                  </div>
+                  <div class="contenedorlabel" >hellow.txt</div>
+              </div>
+            -->
+        </div>
+        <div id="dl"></div>
+
+        <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="//code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+        <script src="js/jquery.simulate.js"></script>
+        <script src="js/js.js"></script>
+    </body>
+</html>  
