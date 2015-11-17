@@ -1,38 +1,53 @@
-#selectable{
+#dragganddrop {
+    width: 500px;
+    height: 500px;
+    display: block;
+    background: red;
+}
+
+.bar {
+    height: 5px;
+    background: green;
+}
+
+#selectable {
     width: 100%;
     height: 700px;
-
 }
-.contenedorfile{
 
+.contenedorfile {
     width: 80px;
     height: 50px;
     padding: 5px;
-    margin:  10px;
+    margin: 10px;
     border-radius: 5px;
     float: left;
 }
-.contenedoricono{
+
+.contenedoricono {
     width: 40px;
-    height: 40px;
+    height: 52px;
     margin: auto;
-  
 }
-.contenedorlabel{
+
+.contenedorlabel {
     font-size: 14px;
     text-align: center;
-    overflow:hidden;
-    white-space:nowrap;
+    overflow: hidden;
+    white-space: nowrap;
     text-overflow: ellipsis;
 }
-iframe{
+
+iframe {
     display: none;
 }
+
 .ui-selecting {
     background: #ccc;
 }
+
 .ui-selected {
-    background:rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .ui-selectable-helper {
@@ -41,110 +56,162 @@ iframe{
     border: 1px dotted black;
 }
 
-.file_js{
-    background: url(../img/js.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_rar,.file_zip{
-    background: url(../img/rar.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_doc{
-    background: url(../img/doc.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_exe{
-    background: url(../img/exe.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_png{
-    background: url(../img/png.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_jpg,.file_jepg{
-    background: url(../img/jpg.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_ppt,.file_pptx{
-    background: url(../img/ppt.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_jar{
-    background: url(../img/jar.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_java{
-    background: url(../img/java.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_psd{
-    background: url(../img/psd.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_pdf{
-    background: url(../img/pdf.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_html{
-    background: url(../img/html.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_css{
-    background: url(../img/css.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_xls{
-    background: url(../img/xls.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_xml{
-    background: url(../img/xml.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_php{
-    background: url(../img/php.png); /* addClass y le anade la que corresponda*/
-    background-size: 100% 100%;
-}
-.file_txt{
-    background: url(../img/txt.png); /* addClass y le anade la que corresponda*/
+.file_js {
+    background: url(../img/js.png);
+    /* addClass y le anade la que corresponda*/
     background-size: 100% 100%;
 }
 
-.file_{
-    background: url(../img/folder.png); /* addClass y le anade la que corresponda*/
+.file_rar,
+.file_zip,
+.file_7z {
+    background: url(../img/rar.png);
+    /* addClass y le anade la que corresponda*/
     background-size: 100% 100%;
 }
 
-button.ui-button-icon-only{
+.file_doc {
+    background: url(../img/doc.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_exe {
+    background: url(../img/bin.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_png {
+    background: url(../img/png.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_jpg,
+.file_jepg {
+    background: url(../img/jpg.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_ppt,
+.file_pptx {
+    background: url(../img/ppt.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_jar {
+    background: url(../img/jar.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_java {
+    background: url(../img/java.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_psd {
+    background: url(../img/psd.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_pdf {
+    background: url(../img/pdf.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_html {
+    background: url(../img/html.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_css {
+    background: url(../img/css.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_xls {
+    background: url(../img/xls.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_xml {
+    background: url(../img/xml.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_php {
+    background: url(../img/php.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_txt {
+    background: url(../img/txt.png);
+    /* addClass y le anade la que corresponda*/
+    background-size: 100% 100%;
+}
+
+.file_ {
+    background: url(../img/folder.png);
+    /* addClass y le anade la que corresponda*/
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+}
+
+button.ui-button-icon-only {
     width: 1.7em;
 }
-button.ui-button-icons-only{
+
+button.ui-button-icons-only {
     width: 2.9em;
 }
-button.ui-button-icon-only,button.ui-button-icons-only{
+
+button.ui-button-icon-only,
+button.ui-button-icons-only {
     height: 25px;
 }
 
-.ui-menu { position: absolute; width: 146px; font-size: 12px; }
+.ui-menu {
+    position: absolute;
+    width: 146px;
+    font-size: 12px;
+}
 
-input{
+input {
     width: 200px;
     height: 18px;
     border-radius: 5px;
-    box-shadow:0px 0px 5px 0px rgba(0, 0, 7, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 7, 0.3);
 }
-#toolbar{
+
+#toolbar {
     padding: 2px;
     height: 30px;
-    background:rgba(0, 0, 0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-body{
+
+body {
     margin: 0px;
     padding: 5px;
 }
 
+input[type="file"] {
+    display: none;
+}
 
-.ui-widget-content .ui-icon{
-    background-image: url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/images/ui-icons_888888_256x240.png);   
+.ui-widget-content .ui-icon {
+    background-image: url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/images/ui-icons_888888_256x240.png);
 }
