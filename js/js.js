@@ -221,10 +221,10 @@ function sort(orderby, metadata) {
 
             filename = metadata[i].path.replace(/^.*(\\|\/|\:)/, '');
 
-            if (filename.substr(0, 1) === ".")
+            if (filename.indexOf("Icon_") > -1 || filename.substr(0, 1) === ".")
                 continue;
 
-            if (filename.indexOf(".") === -1) // folders first
+            if (metadata[i].is_dir) // folders first
                 files.unshift(fileTemplate(filename));
             else
                 files.push(fileTemplate(filename));
